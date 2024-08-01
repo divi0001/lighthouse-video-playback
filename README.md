@@ -1,2 +1,24 @@
-# lighthouse-video-playback
-This is for the lighthouse project to display videos on the uni tower in Kiel
+# LightLight Project
+
+LightLight is a project designed to display videos on a "lighthouse"-style display in Kiel. This project allows users to either play videos from local files or download and play videos from YouTube, displaying them on a 28x14 LED grid.
+
+## Requirements
+
+- Python 3.10+
+- OpenCV (`cv2`)
+- Pyghthouse (`pyghthouse`)
+- pytubefix
+
+## Installation
+
+1. **Install the required packages**:
+    ```bash
+    pip install opencv-python pyghthouse pytubefix
+    ```
+
+2. **Create `login.py`**:
+    ```python
+    # login.py
+    username = 'your_username'
+    token = 'your_api_token'
+    ```
