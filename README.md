@@ -9,6 +9,8 @@ LightLight is a project designed to display videos on a "lighthouse"-style displ
 - Pyghthouse (`pyghthouse`)
 - pytubefix
 
+Since youtube changes frequently, pytubefix is used instead of pytube directly, because YoouTube updates made pytube directly not work properly.
+
 ## Installation
 
 1. **Install the required packages**:
