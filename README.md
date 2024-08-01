@@ -18,7 +18,7 @@ Since youtube changes frequently, pytubefix is used instead of pytube directly, 
     pip install opencv-python pyghthouse pytubefix
     ```
 
-2. **Create `login.py`**:
+2. **Put your username and API-token into `login.py`**:
     ```python
     # login.py
     username = 'your_username'
